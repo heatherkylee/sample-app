@@ -8,4 +8,9 @@ class Api::PagesController < ApplicationController
     @message2 = "today is sunday"
     render "test2_view.json.jbuilder"
   end
+  
+  def test_action3
+    @message3 = "please work"
+    render "test3_view.json.jbuilder"
+  end  
 end

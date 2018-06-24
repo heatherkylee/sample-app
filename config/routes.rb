@@ -4,4 +4,5 @@ Rails.application.routes.draw do
 
   get "/test1" => "api/pages#test_action1"
   get "/test2" => "api/pages#test_action2"
+  get "/test3" => "api/pages#test_action3"
 end
